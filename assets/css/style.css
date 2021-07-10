@@ -71,8 +71,10 @@ body {
 }
 
 .halfsection {
-    min-height: 80vh;
+    min-height: 90vh;
     margin-bottom: 10rem;
+    display: flex;
+    align-items: center;
 }
 
 .color02-bg{
@@ -90,6 +92,7 @@ body {
 }
 
 .btnPrimaryLight {
+    border: 1px solid;
     border-radius: 2rem;
     border-color: var(--color02-light);
     background-color: var(--color01-light);
@@ -100,7 +103,8 @@ body {
 }
 
 .btnPrimaryDark {
-    border-radius: 10px;
+    border: 1px solid;
+    border-radius: 2rem;
     border-color: var(--color01-dark);
     background-color: var(--color02-dark);
     color: var(--color01-dark);
@@ -216,9 +220,12 @@ body {
     margin-bottom: 4.4rem;
 }
 
+.secondSection-content .imageWithDescription{
+    margin-bottom: 2rem;
+}
+
 .imageWithDescription {
     display: flex;
-    margin-bottom: 3.6rem;
     column-gap: 4rem;
 }
 
@@ -229,10 +236,11 @@ body {
 .description {
     display: flex;
     flex-flow:column nowrap;
-    flex-wrap: unset;
     gap: 3rem;
 }
 
 .description button {
     display: block;
 }
+
+
