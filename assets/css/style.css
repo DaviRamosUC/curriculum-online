@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --color01-light: #fff;
+    --color01-dark: #faf4e6;
+    --color02-light: #0065ff;
+    --color02-light-line: #0066ff77;
+    --color02-dark: #3c3b3a;
+    --color03-light: #202020;
+    --color03-dark: #222222;
+    --color04-light: #e5e5e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Be Vietnam", sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    font-size: 7rem;
+    letter-spacing: -2%;
+    line-height: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    letter-spacing: -2%;
+    line-height: 100%;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: -2%;
+    line-height: 100%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: normal;
+}
+
+label {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color01-light);
+}
+
+.section {
+    min-height: 100vh;
+    margin-bottom: 10rem;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 10rem;
+}
+
+.color-blue {
+    color: var(--color02-light);
+}
+
+.btnPrimaryLight {
+    border-radius: 2rem;
+    border-color: var(--color02-light);
+    background-color: var(--color01-light);
+    color: var(--color02-light);
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.btnPrimaryDark {
+    border-radius: 10px;
+    border-color: var(--color01-dark);
+    background-color: var(--color02-dark);
+    color: var(--color01-dark);
+    text-align: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    background-color: var(--color01-light);
+    justify-content: center;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10rem;
+}
+
+.menu .menu-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.1rem 8.7rem;
+    background-color: var(--color01-light);
+}
+
+.menu-content .links {
+    display: flex;
+    align-items: center;
+}
+
+.menu-content .links ul {
+    display: flex;
+}
+
+.menu-content .links ul li {
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.menu-content .links ul li a {
+    color: var(--color02-light);
+}
+
+.menu-content .links h4 {
+    margin-right: 5rem;
+}
+
+.menu-content .socialToggles {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-content .socialToggles img {
+    margin-right: 3rem;
+}
+
+.firstSection-content .image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background: url("../img/perfil.jpeg") no-repeat;
+    background-size: cover;
+    background-color: var(--color01-dark);
+    box-shadow: 0rem 0.5rem 1rem 0.1rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+.line {
+    margin: 7.019rem 0;
+    width: 30rem;
+    border: 0.1rem solid var(--color02-light);
+}
+
+.majorLine {
+    margin: 7.019rem 0 0 0;
+    width: 100%;
+    border: 0.1rem solid var(--color02-light-line);
+}
+
+.firstSection-content > p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.firstSection-content div.checkMessage > p {
+    margin-top: 4.7rem;
+    margin-left: 1rem;
+}
+
+.firstSection-content div.checkMessage ::before {
+    content: "\2713";
+    color: var(--color04-light);
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 50%;
+    background: var(--color02-light);
+}
+
+.secondSection-content .firstDescription {
+    margin-bottom: 3.753rem;
+}
+
+.secondSection-content .firstDescription h4 {
+    margin-bottom: 4.4rem;
+}
+
+.imageWithDescription {
+    display: flex;
+    margin-bottom: 3.6rem;
+    column-gap: 4rem;
+}
+
+.imageWithDescription img {
+    border-radius: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: unset;
+    gap: 3rem;
+}
+
+.description button {
+    display: block;
+}
