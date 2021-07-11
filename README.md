@@ -26,8 +26,12 @@ O UI foi retirado da plataforma Figma com autor <a href="https://www.figma.com/@
 
 ---
 
-## Componentes
-
+## Componentes exploradas com este projeto
+* Uso de tags semanticas como section
+* Entendimento do flex-box
+* Posicionamento
+* Manipulação de imagens
+* Definindo variaveis para CSS
 ---
 
 
