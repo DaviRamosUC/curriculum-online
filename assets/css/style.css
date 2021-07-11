@@ -235,12 +235,59 @@ body {
 
 .description {
     display: flex;
-    flex-flow:column nowrap;
+    flex-flow:column;
     gap: 3rem;
 }
 
-.description button {
-    display: block;
+.fourthSection-content>h4{
+    margin-bottom: 4.4rem;
 }
 
+.articleWImage{
+    margin-top: 7.853rem;
+}
 
+.article{
+    margin-bottom: 3.6rem;
+    display: flex;
+    column-gap: 3.654rem;
+}
+
+.article h4{
+    margin-bottom: 1.534rem;
+}
+
+.article p{
+    margin-top: 2.612rem;
+}
+
+.article img{
+    border-radius: 2rem;
+}
+
+#footer{
+    height: 50vh;
+}
+
+.cloudMessage{
+    background-color: var(--color04-light);
+    border-radius: 1rem;
+    padding: 5rem;
+    box-shadow: 0rem 0.5rem 1rem 0.1rem var(--color02-dark);
+}
+
+.cloudMessage h4{
+    margin-bottom: 4rem;
+}
+
+.cloudMessage .buttons a{
+    margin-right: 1.2rem;
+}
+
+footer .assinature{
+    margin-top: 5rem;
+}
+
+footer .assinature p{
+    font-size: 1.2rem;
+}
